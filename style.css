@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #0d192c;
+  font-family: "Outfit", sans-serif;
+}
+
+.card {
+  width: 35rem;
+  margin: 0 auto;
+  box-shadow: 0 0 3.2rem rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  background-color: #15263f;
+  border-radius: 3rem;
+  margin-top: 15rem;
+  padding: 2rem;
+}
+.title {
+  font-size: 2.2rem;
+  color: #ffffff;
+  margin-top: 1.5rem;
+}
+.paragraph {
+  color: #8bacd9;
+  font-size: 1.8rem;
+  font-weight: light;
+  margin-top: 1.5rem;
+}
+.flex-2--col {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
+.eth {
+  color: #00fff8;
+  font-size: 1.6rem;
+}
+.time {
+  color: #8bacd9;
+  font-size: 1.6rem;
+}
+
+.icon {
+  width: 1.1rem;
+  height: 1.3rem;
+  margin-right: 0.5rem;
+}
+
+.flex-1--row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2rem;
+}
+
+.avatar {
+  width: 3.3rem;
+  height: 3.3rem;
+  margin-top: 1.5rem;
+  margin-right: 2rem;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+.author {
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid #2e405a;
+  align-items: center;
+  font-size: 1.6rem;
+}
+
+.creator {
+  color: #8bacd9;
+  margin-top: 1rem;
+}
+.c-name {
+  color: #ffffff;
+}
+img {
+  width: 30rem;
+  height: 30rem;
+  align-self: center;
+  border-radius: 0.8rem;
+  opacity: 1;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  position: relative;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(0%, 10%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.card:hover .image {
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.card:hover .middle {
+  opacity: 1;
+}
+
+.second-img {
+  position: absolute;
+  background-color: rgba(0, 255, 248, 0.6);
+  border-radius: 0.7rem;
+  color: #fff;
+  margin-top: -31rem;
+  cursor: pointer;
+  padding: 13rem 13rem;
+}
+
+.title:hover {
+  color: #00fff8;
+  cursor: pointer;
+}
+
+.c-name:hover {
+  color: #00fff8;
+  cursor: pointer;
+}
